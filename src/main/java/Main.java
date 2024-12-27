@@ -37,7 +37,7 @@ public class Main {
                 continue;
             }
 
-            System.out.println("Ingresa el tipo de moneda base que tienes ");
+            System.out.println("Ingresa el tipo de moneda base que tienes: ");
             baseCode = scanner.next();
             if (baseCode.equalsIgnoreCase("salir") || !listCoin.contains(baseCode)){
                 if(baseCode.equalsIgnoreCase("salir")){
@@ -47,7 +47,7 @@ public class Main {
                 }
                 break;
             }
-            System.out.println("Ingresa a que tipo de moneda quieres convertir ");
+            System.out.println("Ingresa a que tipo de moneda quieres convertir: ");
             targetCode = scanner.next();
             if (targetCode.equalsIgnoreCase("salir") || !listCoin.contains(baseCode)){
                 if(targetCode.equalsIgnoreCase("salir")){
